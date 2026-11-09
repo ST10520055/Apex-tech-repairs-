@@ -1,0 +1,145 @@
+General Computer Repair Procedures
+Learn how to perform general PC repairs.
+
+Author: Sam Goldheart (and 2 other contributors)
+General Computer Repair Procedures
+With the hand tools and utilities described in the preceding sections, you have everything you need to upgrade or repair a PC except for the new components. Before you start, take a few minutes to read through the following sections, which describe the common procedures and general knowledge you need to work on PCs. These sections describe the common tasks involved in working on a PC things like opening the case, setting jumpers, manipulating cables, and adding or removing expansion cards. Instructions for specific tasks like replacing a motherboard, disk drive, or power supply are given in the relevant section.
+
+
+
+
+To establish realistic service offerings, warranty terms, and turnaround benchmarks for Apex Mobile Tech Repair & Accessories, industry-standard repair practices and South African regulatory guidelines were analyzed across three core areas:
+
+Hardware Service Operations & Turnarounds: Technical workflows for screen replacement (OLED/LCD digitizers), battery swaps, and liquid damage reclamation were researched through online repair authority manuals such as iFixit and local repair workshops. This informed realistic turnaround times (e.g., 45–60 minutes for screen replacements, 24–48 hours for ultrasonic board cleaning).
+
+Consumer Rights & Warranty Compliance: Terms regarding the 90-day repair component warranty were aligned with the provisions of the South African Consumer Protection Act (CPA) 68 of 2008, which mandates implied warranties on installed replacement parts and quality of service.
+
+Domain & Hosting Infrastructure: Cost models for hosting static sites on global Content Delivery Networks (CDNs) alongside local .co.za domain registration fees were sourced directly from South African domain registrars and GitHub Pages technical documentation.
+
+References (Anglia Harvard Style)
+
+Consumer Goods and Services Ombud (CGSO) (2023) South African Consumer Protection Act (CPA) Guidelines on Service Warranties and Repairs. Pretoria: CGSO.
+
+Domains.co.za (2026) .CO.ZA Domain Registration Pricing & Renewal Terms. Available at: https://www.domains.co.za (Accessed: 31 August 2026).
+
+GitHub, Inc. (2026) GitHub Pages Deployment Limits and Pricing Structure. Available at: https://docs.github.com/en/pages (Accessed: 31 August 2026).
+
+iFixit (2025) Standard Smartphone and Tablet Repair Guides & Diagnostic Procedures. Available at: https://www.ifixit.com (Accessed: 20 August 2026).
+
+Mozilla Developer Network (MDN) (2026) HTML Semantic Elements Guidelines. Available at: https://developer.mozilla.org/en-US/docs/Glossary/Semantics (Accessed: 25 August 2026).
+
+World Wide Web Consortium (W3C) (2023) Web Content Accessibility Guidelines (WCAG) 2.1 Overview. Available at: https://www.w3.org/WAI/standards-guidelines/wcag/ (Accessed: 18 August 2026).
+
+ZADNA (2025) Registry Fee Guidelines for .ZA Top-Level Domains. Johannesburg: .za Domain Name Authority.
+
+
+To ensure the website displays accurate repair schedules and technical jargon on services.html and index.html, content was researched using online repair repositories such as iFixit and local repair workshop service charts:
+
+Display Replacements: Screen repair procedures (separating cracked glass, handling touch digitizers, and recalibrating OLED/LCD flex cables) were researched to set realistic turnaround benchmarks of 45–60 minutes.
+
+Battery Swaps & Diagnostics: Battery degradation symptoms (rapid discharge, thermal throttling, swelling) and OEM-equivalent part specifications were analyzed to structure the 30–45 minute battery swap service offering.
+
+Liquid Damage Reclamation: Corrosion treatment protocols—specifically micro-soldering inspection, ultrasonic bath cleaning using isopropyl alcohol, and board drying—were researched to justify a realistic 24–48 hour turnaround time for liquid damage recovery.
+
+2. Component Quality & Consumer Protection Rights
+To formulate the workshop’s 90-day warranty policy and client guarantees featured across about.html and services.html:
+
+Research was conducted on the South African Consumer Protection Act (CPA) 68 of 2008, specifically sections governing implied warranties on installed replacement components and technical labor.
+
+Content was structured to emphasize transparent pricing and diagnostic disclosure to reflect the industry standards enforced by the Consumer Goods and Services Ombud (CGSO).
+
+3. Protective Accessories & Retail Sourcing
+Product categories listed under the accessories section of services.html were modeled after commercial tech retail catalogs:
+
+Screen Protection: Specifications for 9H hardness tempered glass, oleophobic anti-fingerprint coatings, and edge-to-edge privacy screens.
+
+Impact Protection: Heavy-duty TPU (Thermoplastic Polyurethane) armor cases and shock-absorbent corner bumpers.
+
+Power Accessories: USB Power Delivery (PD) protocols, fast-charging wattage standards (20W to 65W Type-C cables), and MFi-certified Lightning accessories.
+
+4. Digital Asset Sourcing & Licensing
+All visual elements used in the code were gathered from copyright-free commercial repositories under Creative Commons Zero (CC0) licenses:
+
+hero-bg.jpg: Sourced from Unsplash (micro-tools and smartphone disassemblies).
+
+repair-screen.jpg & repair-services.jpg: Sourced from Pexels (macro photography of circuit boards and display unit replacements).
+
+logo.png: Custom-designed vector asset created using open-source graphic tools.
+
+Expanded References (Harvard Anglia Style)
+Consumer Goods and Services Ombud (CGSO) (2023) South African Consumer Protection Act (CPA) Guidelines on Service Warranties and Repairs. Pretoria: CGSO.
+
+Domains.co.za (2026) .CO.ZA Domain Registration Pricing & Renewal Terms. Available at: https://www.domains.co.za (Accessed: 31 August 2026).
+
+GitHub, Inc. (2026) GitHub Pages Deployment Limits and Pricing Structure. Available at: https://docs.github.com/en/pages (Accessed: 31 August 2026).
+
+iFixit (2025) Standard Smartphone, Tablet and Laptop Diagnostic & Repair Guides. Available at: https://www.ifixit.com (Accessed: 20 August 2026).
+
+Mozilla Developer Network (MDN) (2026) HTML Semantic Elements Guidelines. Available at: https://developer.mozilla.org/en-US/docs/Glossary/Semantics (Accessed: 25 August 2026).
+
+Pexels (2026) Creative Commons Zero (CC0) Stock Photography License Terms. Available at: https://www.pexels.com/license/ (Accessed: 28 August 2026).
+
+South Africa (2008) Consumer Protection Act 68 of 2008. Pretoria: Government Printer.
+
+Unsplash (2026) Unsplash Image License for Commercial and Personal Use. Available at: https://unsplash.com/license (Accessed: 28 August 2026).
+
+World Wide Web Consortium (W3C) (2023) Web Content Accessibility Guidelines (WCAG) 2.1 Overview. Available at: https://www.w3.org/WAI/standards-guidelines/wcag/ (Accessed: 18 August 2026).
+
+ZADNA (2025) Registry Fee Guidelines for .ZA Top-Level Domains. Johannesburg: .za Domain Name Authority.
+
+
+
+
+
+1. Hardware Engineering & Diagnostic Methodologies
+To deliver reliable, high-grade technical services, operational workflows for hardware repairs are modeled after international technical repair manuals and micro-soldering standards:
+
+OLED & Digitizer Display Panel Assembly: Research into modern capacitive touchscreen assemblies indicates that glass replacement requires precision thermal separation at 80°C–90°C to soften optically clear adhesive (OCA) without damaging underlying Organic Light-Emitting Diode (OLED) layers (iFixit, 2025). Screen replacements on services.html are categorized by component grade: Premium OEM-spec assemblies versus aftermarket panels, ensuring transparent disclosure regarding refresh rates, brightness output (nits), and color calibration.
+
+Lithium-Ion Battery Degradation & Thermal Safety: Smartphone and tablet batteries experience chemical degradation after 300–500 charge cycles, leading to voltage drops, thermal throttling, and internal gas buildup (iFixit, 2025). The battery swap workflow mandates pre-repair capacity diagnostics using diagnostic software, chemical disposal protocols following municipal electronic waste guidelines, and post-installation thermal stability monitoring under load.
+
+Liquid Damage Restoration via Ultrasonic Reclamation: Conventional liquid damage treatment using passive drying agents (e.g., desiccant silica or rice) fails to remove electrolytic mineral deposits that cause short-circuiting under power. Operational workflows adopt a 3-stage ultrasonic bath reclamation process: total mainboard disassembly, ultrasonic bath agitation with 99.9% anhydrous isopropyl alcohol (IPA) to strip corrosion, and micro-inspection under 45x magnification before board power testing (iFixit, 2025).
+
+2. Regulatory Compliance & South African Consumer Law
+The operational policies published across about.html, services.html, and enquiry.html are designed to strictly comply with the legislative framework governing commercial repairs and technical services in South Africa:
+
+Implied Warranty on Repairs (CPA 68 of 2008, Section 56): Under the South African Consumer Protection Act (CPA) 68 of 2008, technical service providers automatically provide an implied 3-month (90-day) warranty on installed replacement parts and associated workmanship (South Africa, 2008; CGSO, 2023). The workshop's 90-day repair guarantee explicitly incorporates these statutory rights, clarifying that warranty coverage applies to functional component failures while excluding subsequent physical drop damage or liquid contact (CGSO, 2023).
+
+Pre-Repair Inspection & Price Disclosures (CPA Section 15): The Act mandates that suppliers cannot charge consumers for repair estimates or diagnostic inspections unless prior agreement is obtained, and repairs must not exceed agreed price estimates without explicit consent (South Africa, 2008). This regulatory requirement justifies the interactive quote submission system on enquiry.html, which establishes a clear initial diagnostic estimate before physical device drop-off.
+
+Data Protection & Privacy (POPIA 4 of 2013): Client contact details collected via enquiry.html (full name, phone number, email address) constitute Personal Information under the Protection of Personal Information Act (POPIA). The form interface incorporates data privacy notices clarifying that customer contact details are processed strictly for diagnostic communication and order status updates.
+
+3. Web Accessibility Standards & User Experience (UX) Architecture
+Website development choices were researched against the World Wide Web Consortium (W3C) Web Content Accessibility Guidelines (WCAG 2.1 Level AA) to ensure universal usability (W3C, 2023):
+
+Color Contrast Ratios (WCAG 2.1 SC 1.4.3): Text and UI element contrast levels were evaluated against WCAG AA standards. The Steel Gray background (#2B2D42) paired with Crisp White body text (#F8F9FA) delivers a high contrast ratio exceeding 12:1, while Cyber Blue (#0077B6) interactive elements achieve a contrast ratio above 4.5:1 against light backgrounds, ensuring legibility for visually impaired users (W3C, 2023).
+
+Semantic HTML Markup (WCAG 2.1 SC 1.3.1): Research into accessibility screen readers (such as NVDA and JAWS) highlights that unsemantic <div> containers hinder assistive navigation (MDN, 2026). Using standard structural landmarks (<header>, <nav>, <main>, <article>, <section>, <fieldset>, <footer>) ensures screen reader users can skip directly between page sections (MDN, 2026).
+
+Responsive Image Optimization (WCAG 2.1 SC 1.4.5): To reduce data overhead on cellular networks without sacrificing high-DPI display quality, image integration utilizes native <picture> elements paired with srcset attributes (MDN, 2026). This delivers optimized image payloads based on client viewport breakpoints, lowering initial page load times on mobile devices.
+
+4. Digital Infrastructure & Hosting Economics
+To ground the project's financial budget in realistic local market conditions, infrastructure costs were derived from commercial South African web hosting and domain registry benchmarks:
+
+Top-Level Domain (.ZA) Registration: Pricing for .co.za domain names is regulated by the .ZA Domain Name Authority (ZADNA) and distributed through accredited local registrars (ZADNA, 2025). An initial registration cost of R99.00/year reflects standard wholesale-to-retail pricing for local commercial identity (Domains.co.za, 2026).
+
+Shared Cloud Hosting Architecture: Shared Linux cloud hosting tiers provided by local hosts (such as xneelo and Hetzner South Africa) provide optimal deployment parameters for static responsive sites: high SSD storage throughput, local CIX (Cape Town/Johannesburg) latency optimization, and automated SSL certificate renewals via Let's Encrypt at R179.00/month (xneelo, 2026; Let's Encrypt, 2026).
+
+References (Anglia Harvard Style)
+Consumer Goods and Services Ombud (CGSO) (2023) South African Consumer Protection Act (CPA) Guidelines on Service Warranties and Repairs. Pretoria: CGSO.
+
+Domains.co.za (2026) .CO.ZA Domain Registration Pricing & Renewal Terms. Available at: https://www.domains.co.za (Accessed: 31 August 2026).
+
+iFixit (2025) Standard Smartphone, Tablet and Laptop Diagnostic & Repair Guides. Available at: https://www.ifixit.com (Accessed: 20 August 2026).
+
+Let's Encrypt (2026) Free, Automated, and Open Certificate Authority. Internet Security Research Group (ISRG). Available at: https://letsencrypt.org (Accessed: 31 August 2026).
+
+Mozilla Developer Network (MDN) (2026) HTML Semantic Elements Guidelines. Available at: https://developer.mozilla.org/en-US/docs/Glossary/Semantics (Accessed: 25 August 2026).
+
+South Africa (2008) Consumer Protection Act 68 of 2008. Pretoria: Government Printer.
+
+World Wide Web Consortium (W3C) (2023) Web Content Accessibility Guidelines (WCAG) 2.1 Overview. Available at: https://www.w3.org/WAI/standards-guidelines/wcag/ (Accessed: 18 August 2026).
+
+xneelo (2026) Shared Linux Web Hosting Packages & Pricing Structure. Available at: https://xneelo.co.za (Accessed: 31 August 2026).
+
+ZADNA (2025) Registry Fee Guidelines for .ZA Top-Level Domains. Johannesburg: .za Domain Name Authority.

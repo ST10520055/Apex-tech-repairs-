@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- page setup, title, meta description, and stylesheet link -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta description for quote request form page -->
+    <meta name="description" content="Submit a quick quote request for your broken smartphone, tablet, or laptop and get a fast estimate from our expert technicians.">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Apex Tech Repair | Enquiry & Quotes</title>
+</head>
+<body>
+
+    <!-- top menu bar with logo and main page links -->
+    <header>
+        <h1>Apex Mobile Tech Repair & Accessories</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main section for page content -->
+    <main>
+
+        <!-- quote request form section -->
+        <section class="enquiry-form-section">
+            <h2>Request a Repair Quote</h2>
+            <p>Please fill out the form below with your device details and issue description. Our technicians will calculate an instant estimate for you.</p>
+
+            <form id="enquiry-form" action="#" method="POST">
+                
+                <!-- box for personal contact info -->
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required minlength="2">
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}">
+                </fieldset>
+
+                <!-- box for broken device info -->
+                <fieldset>
+                    <legend>Device & Repair Details</legend>
+
+                    <label for="device-type">Device Type:</label>
+                    <select id="device-type" name="device-type" required>
+                        <option value="" disabled selected>Select your device</option>
+                        <option value="smartphone">Smartphone</option>
+                        <option value="tablet">Tablet</option>
+                        <option value="laptop">Laptop</option>
+                        <option value="accessory">Accessory Query</option>
+                    </select>
+
+                    <label for="brand">Brand & Model:</label>
+                    <input type="text" id="brand" name="brand" required>
+
+                    <label for="issue">Describe the Issue:</label>
+                    <textarea id="issue" name="issue" rows="5" required minlength="5"></textarea>
+                </fieldset>
+
+                <!-- container where javascript will output validation feedback and repair estimates -->
+                <div id="enquiry-response" style="margin-top: 1rem;"></div>
+
+                <!-- submit form button -->
+                <button type="submit" style="margin-top: 1rem;">Submit Quote Request</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- footer bar at the bottom with copyright -->
+    <footer>
+        <p>&copy; 2026 Apex Mobile Tech Repair & Accessories. All rights reserved.</p>
+    </footer>
+
+    <!-- javascript file link -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>

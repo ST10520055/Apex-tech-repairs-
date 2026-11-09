@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head area with title, meta description, and link to css stylesheet -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta description so google knows what our services page offers -->
+    <meta name="description" content="Explore our professional repair services including screen replacements, battery swaps, liquid damage restoration, and mobile accessories.">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Apex Tech Repair | Services & Pricing</title>
+</head>
+<body>
+
+    <!-- header with the site title and navigation menu links -->
+    <header>
+        <h1>Apex Mobile Tech Repair & Accessories</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main section for all services content -->
+    <main>
+
+        <!-- dynamic search and product filter section -->
+        <section class="dynamic-search-section">
+            <h2>Search Our Services & Accessories</h2>
+            <p>Type below to instantly filter through our repair options and parts.</p>
+            
+            <!-- search input box -->
+            <input type="text" id="service-search-input" aria-label="Search services" style="width: 100%; padding: 0.75rem; margin-bottom: 1.5rem; border: 1px solid var(--border-color); border-radius: 4px;">
+
+            <!-- container where javascript will dynamically load the listings -->
+            <div id="dynamic-services-container" class="services-grid"></div>
+        </section>
+
+        <!-- main repairs section -->
+        <section class="repair-services">
+            <h2>Hardware Repair Services</h2>
+            <picture>
+                <source media="(max-width: 640px)" srcset="images/repair-services.jpg">
+                <img src="images/repair-services.jpg" srcset="images/repair-services.jpg 1x" alt="Technician performing hardware repairs on a smartphone in workshop">
+            </picture>
+
+            <!-- screen repair card -->
+            <article>
+                <h3>Smartphone Glass & Display Replacement</h3>
+                <p>Full screen unit swaps covering cracked glass, unresponsive touch digitizers, and discolored OLED/LCD panels.</p>
+                <p><strong>Time:</strong> 45 - 60 Minutes</p>
+            </article>
+
+            <!-- battery replacement card -->
+            <article>
+                <h3>Battery Diagnostics & Replacement</h3>
+                <p>Revive draining battery health with brand-new OEM-equivalent battery cells and charging circuit testing.</p>
+                <p><strong>Time:</strong> 30 - 45 Minutes</p>
+            </article>
+
+            <!-- water damage card -->
+            <article>
+                <h3>Liquid Damage Reclamation</h3>
+                <p>Ultrasonic board cleaning, corrosion treatment, and component-level diagnostic assessments.</p>
+                <p><strong>Time:</strong> 24 - 48 Hours</p>
+            </article>
+        </section>
+
+        <!-- accessories for sale section -->
+        <section class="accessories">
+            <h2>Accessories & Protection Packs</h2>
+            <picture>
+                <source media="(max-width: 640px)" srcset="images/accessories-display.jpg">
+                <img src="images/accessories-display.jpg" srcset="images/accessories-display.jpg 1x" alt="Selection of smartphone protective cases and charging accessories on display">
+            </picture>
+
+            <!-- list of available accessories -->
+            <ul>
+                <li><strong>9H Tempered Glass Screen Protectors:</strong> Scratch-resistant and shatter-proof display shields.</li>
+                <li><strong>Heavy-Duty Armor Cases:</strong> Shock-absorbent protective cases for major flagship models.</li>
+                <li><strong>Fast Charging Cables & Adapters:</strong> High-wattage Type-C and Lightning power accessories.</li>
+            </ul>
+        </section>
+
+        <!-- interactive faq accordion section -->
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            
+            <button class="accordion-header">How long do standard screen repairs take?</button>
+            <div class="accordion-content">
+                <p>Most smartphone screen and glass replacements are completed within 45 to 60 minutes at our main workshop.</p>
+            </div>
+
+            <button class="accordion-header">Do you offer a warranty on repairs?</button>
+            <div class="accordion-content">
+                <p>Yes! All replacement parts and installation work are backed by our standard 90-day component warranty.</p>
+            </div>
+        </section>
+
+        <!-- link box to request a price quote -->
+        <section class="pricing-cta">
+            <h2>Need a Specific Quote?</h2>
+            <p>Because component prices vary by device model, we provide exact estimates before starting any work.</p>
+            <p><a href="enquiry.html">Submit a Quote Request</a></p>
+        </section>
+
+    </main>
+
+    <!-- bottom footer bar -->
+    <footer>
+        <p>&copy; 2026 Apex Mobile Tech Repair & Accessories. All rights reserved.</p>
+    </footer>
+
+    <!-- script link for javascript -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>

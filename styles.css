@@ -1,0 +1,391 @@
+
+* {
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+
+/* color variables  */
+:root {
+    --primary-blue: #0077B6;
+    --primary-hover: #005682;
+    --dark-steel: #2B2D42;
+    --light-bg: #F8F9FA;
+    --card-bg: #FFFFFF;
+    --text-dark: #2B2D42;
+    --text-muted: #6C757D;
+    --border-color: #E2E8F0;
+    --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.06);
+    --font-stack: 'Aptos', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* basic page setup */
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+/* body background, main font, and sticky footer setup */
+body {
+    font-family: var(--font-stack);
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: var(--light-bg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* big main heading */
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+}
+
+/* section title headings */
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    margin-bottom: 0.75rem;
+}
+
+/* card title headings */
+h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+/* regular paragraphs */
+p {
+    margin-bottom: 1rem;
+}
+
+/* links setup */
+a {
+    color: var(--primary-blue);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+/* make links change color when mouse hovers over them */
+a:hover {
+    color: var(--primary-hover);
+}
+
+/* keeps main content centered with margins on the sides */
+main {
+    flex: 1;
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* header box at top of page */
+header {
+    background-color: var(--dark-steel);
+    color: #FFFFFF;
+    padding: 1.25rem 2rem;
+    border-bottom: 4px solid var(--primary-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+header h1 {
+    color: #FFFFFF;
+}
+
+/* line up navigation menu buttons side by side */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* style for navigation links */
+nav a {
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 0.5rem 0.85rem;
+    border-radius: 4px;
+    transition: background-color 0.25s ease, transform 0.15s ease;
+}
+
+/* button highlight when hovering */
+nav a:hover {
+    background-color: var(--primary-blue);
+    color: #FFFFFF;
+}
+
+/* 3 column grid layout for computer screens */
+.services-grid, .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/* white card containers for content sections */
+section {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-soft);
+}
+
+/* form layout box */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* grey box around form sections */
+fieldset {
+    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    border-radius: 6px;
+    background-color: #FAFAFA;
+}
+
+/* title text for form fieldset */
+legend {
+    font-weight: 700;
+    color: var(--primary-blue);
+    padding: 0 0.5rem;
+}
+
+/* label text above input boxes */
+label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.35rem;
+    font-weight: 600;
+}
+
+/* text boxes, dropdowns, and textareas */
+input, select, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* blue glow around input boxes when typing in them */
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--primary-blue);
+    box-shadow: 0 0 0 3px rgba(0, 119, 182, 0.2);
+}
+
+/* submit quote button */
+button[type="submit"] {
+    background-color: var(--primary-blue);
+    color: #FFFFFF;
+    padding: 0.85rem 1.75rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.25s ease, transform 0.10s ease;
+}
+
+/* button hover click effect */
+button[type="submit"]:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-1px);
+}
+
+/* makes images shrink automatically on smaller screens so they dont break layout */
+img, iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* footer bar at bottom of site */
+footer {
+    background-color: var(--dark-steel);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: auto;
+    border-top: 4px solid var(--primary-blue);
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+/* tablet screens: change 3 column grid to 2 columns */
+@media (max-width: 1023px) {
+    html {
+        font-size: 15px;
+    }
+
+    .services-grid, .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    header h1 {
+        font-size: 1.75rem;
+    }
+}
+
+/* phone screens: stack menu buttons and change cards to 1 column */
+@media (max-width: 640px) {
+    html {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    nav li {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        padding: 0.65rem;
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    .services-grid, .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        width: 95%;
+        padding: 0 0.5rem;
+        margin: 1rem auto;
+    }
+
+    section {
+        padding: 1.25rem;
+    }
+}
+
+/* SMOOTH TRANSITIONS AND ANIMATIONS */
+section {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* ACCORDION STYLING */
+.accordion-header {
+    background-color: var(--primary-blue);
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    transition: background-color 0.2s ease;
+}
+
+.accordion-header:hover {
+    background-color: var(--primary-hover);
+}
+
+.accordion-content {
+    padding: 0 1rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #FAFAFA;
+    border-left: 3px solid var(--primary-blue);
+    margin-bottom: 0.5rem;
+
+
+}/* Ensure grid styling matches HTML classes correctly */
+.services-grid,
+.services-overview,
+.repair-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.features ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+}
+/* Responsive Media Queries for Mobile and Tablet Viewports */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 0;
+    }
+
+    main {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+/* Consistent interactive hover and focus states for links and buttons */
+a:hover, button:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+a:focus, button:focus, input:focus, select:focus, textarea:focus {
+    outline: 2px solid #0056b3;
+    outline-offset: 2px;
+}

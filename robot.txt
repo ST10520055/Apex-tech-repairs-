@@ -1,0 +1,7 @@
+# robots.txt for Apex Mobile Tech Repair & Accessories
+
+User-agent: *
+Allow: /
+
+# Link to sitemap
+Sitemap: https://www.apextechrepair.co.za/sitemap.xml

@@ -1,0 +1,47 @@
+HTML Code Comments: Added detailed inline comments across all HTML pages explaining element tags,  accessibility rules, and structure.
+
+Responsive Image Tags: Updated image code across all pages to use picture elements and srcset attributes so images adjust automatically on mobile screens.   
+
+CSS Responsive Layouts: Added @media query breakpoints in styles.css to switch multi-column desktop grids into single-column mobile stacks.   
+
+Fluid Image Sizing: Added max-width: 100% and height: auto to CSS so images never overflow their containers.   
+
+Mobile Navigation: Set header navigation links to stack vertically on mobile screens under 640px for easier tapping.   
+
+Realistic Budget & Sources: Replaced estimated costs with an itemized South African ZAR budget referencing real providers (ZADNA, xneelo, Let's Encrypt).   
+
+Harvard Referencing: Added complete inline Anglia Harvard citations and a reference list for CPA laws, W3C accessibility, and iFixit repair guides.   
+
+Expanded Research Content: Added detailed written technical research on screen replacement thermals, battery safety, and CPA (2008) consumer repair laws.   
+
+
+File Directory Cleanup: Re-organized all project files into clean subfolders (css/, js/, images/, images/screenshots/) using lowercase kebab-case naming.   
+
+Structured README.md: Rebuilt README.md with an updated project overview, file tree, device testing matrix, and screenshot placeholders.   
+
+DevTools Screenshot Logs: Added responsive testing logs and screenshot placeholders for Desktop (1440px), Tablet (768px), and Mobile (390px) viewports.   
+
+Added more comments to html files. Comments now more detailed
+
+CSS Grid Selector Corrections Updated and matched CSS class selectors (such as .services-grid and .features) with the HTML markup to ensure proper grid rendering and layout application.   
+
+
+Responsive Breakpoints Added Implemented dedicated mobile and tablet media queries directly into the active css/styles.css stylesheet and tested fluid scaling across viewports.   
+
+
+ Added consistent hover and accessibility focus states for all navigation links, buttons, and form inputs.   
+
+ Verified that all image asset paths correctly target the images/ directory across all HTML files.
+
+ Integrated unique meta descriptions, custom page titles, and structured semantic header tags (H1, H2, H3) across all five HTML files (index.html, about.html, services.html, enquiry.html, and contact.html).
+
+Created a unified script.js file to handle dynamic real-time service search filtering, interactive FAQ accordions, and automated quote estimates.
+
+ Configured distinct form purposes for enquiry.html (generating dynamic repair cost and turnaround estimates) and contact.html (compiling general messages into a mailto: link), backed by rigorous client-side JavaScript validation and custom error handling.   
+
+ Documented off-page strategies including backlinks, social media promotion, and local SEO, alongside generating the required robots.txt and sitemap.xml technical files.   
+
+
+ Assembled base wireframe templates and established cross-page navigation linking.
+
+ Logged initial structural changes following lecturer evaluations from Part 2.
